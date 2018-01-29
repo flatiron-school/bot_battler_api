@@ -1,24 +1,6 @@
-# README
+# Usage
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+There are 2 routes:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. `/api/v1/bots` will return an array of bots
+2. `/api/v1/DO_NOT_USE` will destroy all bots and rebuild 100 new ones.
